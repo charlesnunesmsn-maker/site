@@ -5,106 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>charles</title>
 </head>
+
 <body>
-  <header>
-    <h1>charles</h1>
+   <header>
+      <h1>charles</h1>
 
-        <nav> <!--seção de navegação do site-->
-           <ul> <!--lista não ordenada para links do nosso menu-->
+      <nav> <!--seção de navegação do site-->
+         <ul> <!--lista não ordenada para links do nosso menu-->
             <li><a href="#sobre">sobre mim</a></li>
-             <li><a href="#contato">contato</a></li>
-              <li><a href="#projetos">projetos</a></li>
-              <li><a href="https://google.com.br/" target="_blank" rel="noopener noreferrer">google</a></li>
-              <!-- <li>sobre mim</li> -->
-           </ul> 
-        </nav>
-  </header> ,
+            <li><a href="#contato">contato</a></li>
+            <li><a href="#projetos">projetos</a></li>
+            <li><a href="https://google.com.br/" target="_blank" rel="noopener noreferrer">google</a></li>
+            <!-- <li>sobre mim</li> -->
+         </ul>
+      </nav>
+   </header> ,
 
-     <section id="sobre">
-        <h2>sobre mim</h2>
+   <section id="sobre">
+      <h2>sobre mim</h2>
 
-        <img src="img.png" alt="imagem de foto de perfil" title="imagem de perfil do charles">
+      <img src="img.png" alt="imagem de foto de perfil" title="imagem de perfil do charles">
 
 
-        <artion>
-            <p>
-               olá, eu sou charles, sou um desenvolvendor web, addcionado mais um texto 
-            </p>
-        </artion>
+      <artion>
+         <p>
+            olá, eu sou charles, sou um desenvolvendor web, addcionado mais um texto
+         </p>
+      </artion>
 
-        <aside>
+      <aside>
          <h3>habilidades</h3>
 
          <ul>
             <li>HTML</li>
-             <li>CSS</li>
-              <li>JavaScript</li>
-         
+            <li>CSS</li>
+            <li>JavaScript</li>
+
          </ul>
 
 
-        </aside>
+      </aside>
 
-     </section>
+   </section>
 
-     <section id="projetos">
-        
+   <section id="projetos">
+
       <h2>projetos</h2>
 
       <article>
          <h3>portfólio</h3>
 
          <p>este foi meu primeiro projeto.</p>
-
-
-
-    </section>
-
-   <footer>
-   <p>direitos reservado a charles</p>
-    
-   <section id="contato">
-
-      <h2>contato</h2>
-   
-      <p>tem um projeto em mente? entre em contato.</p>
-
-      <form action>
-
-      <label for="nome">nome: </label>
-      <input type="text" id="nome" name="nome" required > <br>
-
-      <label for="email">email: </label>
-      <input type="email" id="email" name="email" required > <br>
-
-     <label for="telefone">telefone: </label>
-      <input type="tel" id="telefone" name="telefone" > <br>
-
-      <label for="assunto">assunto: </label>
-      <select name="assunto" id="assunto">
-         <option value="orçamento">orçamento</option>
-         <option value="dúvidas">dúvida</option>
-         <option value="outro">outro</option>
-
-      </select> 
-
-         <br>
-
-      <label for="mensagem">mensagem: </label>
-      <textarea id="mensagem" name="mensagem" rows="4" cols="20" required></textarea> <br>
-
-      <input type="checkbox" id= "inscricao" name="inscricao" >
-      <label for="inscricao">deseja receber minha newsletter? fica por dentro</label> 
       
-      <br>
+      </section>
 
-      <input type="submit" value="enviar">
-    </form>
 
-   </section>
+      <selection id="habilidade">
+
+         <h2>habilidades e tecnologia</h2>
+
+         <table>
+
+            <thead></thead>
+            <tr>
+               <th>tecnologia</th>
+               <th>nível</th>
+               <th>descrição</th>
+            </tr> 
+            
+            </thead>
+         
+         
+
+         <tbody>
+
+            <tr>
+               <td>HTML</td>
+               <td>iniciante</td>
+               <td>capaz de constrir estrutura de páginas web semânticas e responsivas</td>
+            </tr>
+            <tr>
+               <td>CSS</td>
+               <td>intermediario</td>
+               <td>experriencia com flexbox, grid e animções</td>
+            </tr>
+            <tr>
+               <td>JavaScript</td>
+               <td>básico</td>
+               <td>desenvolvendo de scripts do lado do cliente</td>
+            
+         </tbody>
+         </table>
+
+      </selection>
+
+  
+   <footer>
+      <p>direitos reservado a charles</p>
+
+      <section id="contato">
+
+         <h2>contato</h2>
+
+         <p>tem um projeto em mente? entre em contato.</p>
+
+         <form action>
+
+            <label for="nome">nome: </label>
+            <input type="text" id="nome" name="nome" required> <br>
+
+            <label for="email">email: </label>
+            <input type="email" id="email" name="email" required> <br>
+
+            <label for="telefone">telefone: </label>
+            <input type="tel" id="telefone" name="telefone"> <br>
+
+            <label for="assunto">assunto: </label>
+            <select name="assunto" id="assunto">
+               <option value="orçamento">orçamento</option>
+               <option value="dúvidas">dúvida</option>
+               <option value="outro">outro</option>
+
+            </select>
+
+            <br>
+
+            <label for="mensagem">mensagem: </label>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="20" required></textarea> <br>
+
+            <input type="checkbox" id="inscricao" name="inscricao">
+            <label for="inscricao">deseja receber minha newsletter? fica por dentro</label>
+
+            <br>
+
+            <input type="submit" value="enviar">
+         </form>
+
+      </section>
 
 
    </footer>
 </body>
-</html>
 
+</html>
